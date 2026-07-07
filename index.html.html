@@ -1,0 +1,2354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO LOCAL - MARTINÓPOLIS -->
+<title>Academia em Martinópolis | ApexFit — Musculação, Personal Trainer e Resultados Reais</title>
+<meta name="description" content="A melhor academia de Martinópolis-SP. Equipamentos modernos, professores qualificados e aula experimental GRATUITA. Treine musculação, funcional, emagrecimento e ganho de massa. Mais de 500 alunos transformados!">
+<meta name="keywords" content="academia em Martinópolis, musculação em Martinópolis, academia perto de mim Martinópolis, treino em Martinópolis, personal trainer Martinópolis, academia Martinópolis SP, emagrecimento Martinópolis, ganho de massa Martinópolis, aula experimental Martinópolis">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="BR-SP">
+<meta name="geo.placename" content="Martinópolis, São Paulo">
+<link rel="canonical" href="https://apexfitmartin.com.br/">
+
+<!-- OPEN GRAPH -->
+<meta property="og:title" content="Academia em Martinópolis | ApexFit — Transforme Seu Corpo">
+<meta property="og:description" content="Equipamentos modernos, professores qualificados e mais de 500 alunos transformados. Agende sua aula experimental GRATUITA em Martinópolis!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://apexfitmartin.com.br/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80">
+<meta property="og:locale" content="pt_BR">
+
+<!-- SCHEMA MARKUP - LOCAL BUSINESS -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "ApexFit Academia",
+  "description": "A melhor academia de Martinópolis-SP. Musculação, funcional, personal trainer e acompanhamento profissional.",
+  "url": "https://apexfitmartin.com.br",
+  "telephone": "+5518999999999",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Brasil, 500",
+    "addressLocality": "Martinópolis",
+    "addressRegion": "SP",
+    "postalCode": "19190-000",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -22.1391,
+    "longitude": -51.1836
+  },
+  "openingHours": ["Mo-Fr 06:00-23:00", "Sa 08:00-20:00", "Su 09:00-14:00"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "1000"
+  },
+  "priceRange": "R$89 - R$299/mês"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   RESET & BASE
+============================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --black: #080808;
+  --black-2: #111111;
+  --black-3: #1a1a1a;
+  --black-4: #222222;
+  --red: #E8001D;
+  --red-dark: #b5001a;
+  --red-glow: rgba(232, 0, 29, 0.3);
+  --white: #ffffff;
+  --white-70: rgba(255,255,255,0.7);
+  --white-40: rgba(255,255,255,0.4);
+  --white-10: rgba(255,255,255,0.08);
+  --gold: #c9a84c;
+  --font-display: 'Bebas Neue', 'Impact', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --radius: 4px;
+  --radius-lg: 8px;
+  --transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* ============================================
+   TYPOGRAPHY SCALE
+============================================ */
+.display-xl { font-family: var(--font-display); font-size: clamp(3.5rem, 9vw, 8rem); line-height: 0.95; letter-spacing: 0.02em; }
+.display-lg { font-family: var(--font-display); font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1; letter-spacing: 0.02em; }
+.display-md { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.05; letter-spacing: 0.02em; }
+.eyebrow { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--red); }
+.body-lg { font-size: 1.125rem; line-height: 1.75; color: var(--white-70); }
+.body-sm { font-size: 0.875rem; line-height: 1.6; color: var(--white-70); }
+
+/* ============================================
+   UTILITIES
+============================================ */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.section { padding: 100px 0; }
+.section-alt { background: var(--black-2); }
+.text-center { text-align: center; }
+.text-red { color: var(--red); }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 16px 32px; font-family: var(--font-body); font-size: 0.875rem;
+  font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  text-decoration: none; border: none; cursor: pointer;
+  transition: var(--transition); border-radius: var(--radius);
+  white-space: nowrap; position: relative; overflow: hidden;
+}
+
+.btn-primary {
+  background: var(--red); color: var(--white);
+}
+.btn-primary::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%);
+  transform: translateX(-100%); transition: transform 0.5s;
+}
+.btn-primary:hover { background: var(--red-dark); transform: translateY(-2px); box-shadow: 0 8px 30px var(--red-glow); }
+.btn-primary:hover::before { transform: translateX(100%); }
+
+.btn-outline {
+  background: transparent; color: var(--white);
+  border: 1.5px solid rgba(255,255,255,0.4);
+}
+.btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.05); transform: translateY(-2px); }
+
+.btn-whatsapp {
+  background: #25D366; color: var(--white);
+}
+.btn-whatsapp:hover { background: #1da851; transform: translateY(-2px); box-shadow: 0 8px 30px rgba(37,211,102,0.3); }
+
+.tag {
+  display: inline-block; padding: 4px 12px; background: var(--red);
+  font-size: 0.65rem; font-weight: 800; letter-spacing: 0.15em;
+  text-transform: uppercase; border-radius: 2px;
+}
+
+/* ============================================
+   SCROLL ANIMATIONS
+============================================ */
+.fade-in { opacity: 0; transform: translateY(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+.fade-in-left { opacity: 0; transform: translateX(-40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.fade-in-left.visible { opacity: 1; transform: translateX(0); }
+.fade-in-right { opacity: 0; transform: translateX(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.fade-in-right.visible { opacity: 1; transform: translateX(0); }
+.scale-in { opacity: 0; transform: scale(0.9); transition: opacity 0.6s ease, transform 0.6s ease; }
+.scale-in.visible { opacity: 1; transform: scale(1); }
+
+/* ============================================
+   NAVBAR
+============================================ */
+#navbar {
+  position: sticky; top: 0; left: 0; right: 0; z-index: 1000;
+  padding: 20px 0;
+  transition: all 0.4s ease;
+}
+#navbar.scrolled {
+  background: rgba(8,8,8,0.97);
+  backdrop-filter: blur(20px);
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.nav-inner {
+  display: flex; align-items: center; justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex; align-items: center; gap: 10px; text-decoration: none;
+}
+.logo-mark {
+  width: 38px; height: 38px; background: var(--red);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 1.3rem; color: var(--white);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+.logo-text { font-family: var(--font-display); font-size: 1.4rem; letter-spacing: 0.05em; }
+.logo-text span { color: var(--red); }
+
+.nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
+.nav-links a {
+  color: var(--white-70); text-decoration: none;
+  font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+  transition: color 0.2s; position: relative;
+}
+.nav-links a::after {
+  content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+  height: 1.5px; background: var(--red); transform: scaleX(0); transition: transform 0.3s;
+}
+.nav-links a:hover { color: var(--white); }
+.nav-links a:hover::after { transform: scaleX(1); }
+
+.nav-cta { font-size: 0.75rem !important; padding: 12px 24px !important; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+.hamburger span { width: 24px; height: 2px; background: var(--white); display: block; transition: var(--transition); }
+
+@media (max-width: 900px) {
+  .nav-links, .nav-desktop-cta { display: none; }
+  .hamburger { display: flex; }
+  .mobile-menu {
+    display: none; position: fixed; inset: 0; background: var(--black);
+    z-index: 999; flex-direction: column; align-items: center; justify-content: center;
+    gap: 32px;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    font-family: var(--font-display); font-size: 2rem; letter-spacing: 0.05em;
+    color: var(--white); text-decoration: none; text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .mobile-menu a:hover { color: var(--red); }
+}
+
+/* ============================================
+   HERO
+============================================ */
+#hero {
+  position: relative; min-height: 100vh;
+  display: flex; align-items: center; overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute; inset: 0; z-index: 0;
+  background:
+    linear-gradient(135deg, rgba(8,8,8,0.95) 0%, rgba(8,8,8,0.7) 50%, rgba(8,8,8,0.9) 100%),
+    url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80') center/cover no-repeat;
+}
+
+.hero-red-line {
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 4px; background: linear-gradient(180deg, transparent, var(--red), transparent);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative; z-index: 2;
+  padding: 160px 0 100px;
+  max-width: 800px;
+}
+
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 8px 16px; background: var(--white-10);
+  border: 1px solid rgba(232,0,29,0.4); border-radius: 100px;
+  font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; margin-bottom: 32px;
+  backdrop-filter: blur(10px);
+}
+.hero-badge .dot { width: 6px; height: 6px; background: var(--red); border-radius: 50%; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.5); } }
+
+.hero-title { margin-bottom: 24px; }
+.hero-title .line-2 { color: var(--red); display: block; }
+
+.hero-subtitle {
+  font-size: 1.1rem; color: var(--white-70); line-height: 1.8;
+  max-width: 560px; margin-bottom: 48px;
+}
+
+.hero-buttons { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 64px; }
+
+.trust-indicators {
+  display: flex; flex-wrap: wrap; gap: 32px;
+  padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.1);
+}
+.trust-item { display: flex; align-items: center; gap: 12px; }
+.trust-number {
+  font-family: var(--font-display); font-size: 2rem; color: var(--red); line-height: 1;
+}
+.trust-label { font-size: 0.8rem; color: var(--white-70); line-height: 1.4; font-weight: 500; }
+
+.hero-scroll {
+  position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  z-index: 2; text-decoration: none;
+}
+.hero-scroll span { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--white-40); }
+.scroll-line { width: 1px; height: 40px; background: linear-gradient(180deg, var(--red), transparent); animation: scrollLine 2s ease-in-out infinite; }
+@keyframes scrollLine { 0% { opacity: 1; transform: scaleY(1); } 100% { opacity: 0; transform: scaleY(0) translateY(-20px); } }
+
+/* ============================================
+   DIFERENCIAIS
+============================================ */
+.diferenciais-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.diferencial-card {
+  background: var(--black-2); padding: 48px 40px;
+  transition: background 0.3s, transform 0.3s;
+  position: relative; overflow: hidden;
+}
+.diferencial-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 2px; background: var(--red); transform: scaleX(0); transition: transform 0.4s;
+  transform-origin: left;
+}
+.diferencial-card:hover { background: var(--black-3); }
+.diferencial-card:hover::before { transform: scaleX(1); }
+
+.dif-icon {
+  width: 56px; height: 56px; background: rgba(232,0,29,0.1);
+  border: 1px solid rgba(232,0,29,0.3); border-radius: var(--radius);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 24px; font-size: 1.5rem;
+  transition: background 0.3s, border-color 0.3s;
+}
+.diferencial-card:hover .dif-icon { background: rgba(232,0,29,0.2); border-color: var(--red); }
+.dif-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
+.dif-desc { font-size: 0.875rem; color: var(--white-70); line-height: 1.7; }
+
+/* ============================================
+   OBJETIVOS
+============================================ */
+.objetivos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+
+.objetivo-card {
+  background: var(--black-3); border: 1px solid rgba(255,255,255,0.08);
+  padding: 48px 36px; border-radius: var(--radius-lg);
+  cursor: pointer; transition: all 0.4s ease; position: relative; overflow: hidden;
+}
+.objetivo-card::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(232,0,29,0.08) 0%, transparent 60%);
+  opacity: 0; transition: opacity 0.4s;
+}
+.objetivo-card:hover { border-color: rgba(232,0,29,0.4); transform: translateY(-6px); box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+.objetivo-card:hover::after { opacity: 1; }
+.objetivo-card.active { border-color: var(--red); background: var(--black-4); }
+
+.obj-number { font-family: var(--font-display); font-size: 5rem; color: rgba(232,0,29,0.12); line-height: 1; margin-bottom: -16px; }
+.obj-icon { font-size: 2.5rem; margin-bottom: 20px; }
+.obj-title { font-size: 1.4rem; font-weight: 800; margin-bottom: 12px; }
+.obj-desc { font-size: 0.9rem; color: var(--white-70); line-height: 1.7; margin-bottom: 24px; }
+
+.obj-details {
+  max-height: 0; overflow: hidden; transition: max-height 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+.obj-details.open { max-height: 300px; opacity: 1; }
+.obj-detail-list { list-style: none; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); }
+.obj-detail-list li {
+  display: flex; align-items: flex-start; gap: 10px; padding: 8px 0;
+  font-size: 0.875rem; color: var(--white-70);
+}
+.obj-detail-list li::before { content: '→'; color: var(--red); flex-shrink: 0; margin-top: 1px; }
+
+.obj-toggle {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--red); background: none; border: none;
+  cursor: pointer; padding: 0; transition: gap 0.3s;
+}
+.obj-toggle:hover { gap: 14px; }
+
+/* ============================================
+   CALCULADORA IMC
+============================================ */
+#imc { background: var(--black-2); }
+
+.imc-wrapper {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+}
+@media (max-width: 768px) { .imc-wrapper { grid-template-columns: 1fr; gap: 48px; } }
+
+.imc-form {
+  background: var(--black-3); border: 1px solid rgba(255,255,255,0.08);
+  padding: 48px; border-radius: var(--radius-lg);
+}
+
+.form-group { margin-bottom: 24px; }
+.form-group label {
+  display: block; font-size: 0.75rem; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--white-70); margin-bottom: 10px;
+}
+.form-group input {
+  width: 100%; padding: 16px 20px; background: var(--black-4);
+  border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius);
+  color: var(--white); font-size: 1rem; font-family: var(--font-body);
+  transition: border-color 0.3s;
+}
+.form-group input:focus { outline: none; border-color: var(--red); }
+.form-group input::placeholder { color: rgba(255,255,255,0.3); }
+
+.imc-result {
+  display: none; margin-top: 32px; padding: 24px;
+  background: var(--black-4); border-radius: var(--radius);
+  border-left: 3px solid var(--red);
+}
+.imc-result.show { display: block; animation: slideIn 0.4s ease; }
+@keyframes slideIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.imc-value { font-family: var(--font-display); font-size: 3.5rem; color: var(--red); line-height: 1; }
+.imc-classification { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+.imc-note { font-size: 0.8rem; color: var(--white-70); }
+.imc-cta { margin-top: 20px; }
+
+.imc-info h3 { font-size: 1.8rem; font-weight: 700; margin-bottom: 20px; }
+.imc-scale { margin-top: 32px; }
+.scale-item { display: flex; align-items: center; gap: 16px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.scale-color { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+.scale-label { font-size: 0.875rem; color: var(--white-70); }
+.scale-range { font-size: 0.8rem; color: var(--white-40); margin-left: auto; }
+
+/* ============================================
+   PLANOS
+============================================ */
+.planos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 60px; }
+
+.plano-card {
+  background: var(--black-3); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-lg); padding: 48px 36px; position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.plano-card:hover { transform: translateY(-8px); }
+.plano-card.featured {
+  border-color: var(--red); background: linear-gradient(135deg, var(--black-3) 0%, rgba(232,0,29,0.05) 100%);
+  transform: scale(1.03);
+}
+.plano-card.featured:hover { transform: scale(1.03) translateY(-8px); }
+.plano-card.vip { border-color: var(--gold); }
+
+.plano-badge {
+  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+  background: var(--red); color: var(--white); padding: 6px 20px;
+  font-size: 0.65rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase;
+  border-radius: 100px;
+}
+.plano-vip-badge { background: var(--gold); color: var(--black); }
+
+.plano-name { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--white-40); margin-bottom: 16px; }
+.plano-price { margin-bottom: 8px; }
+.plano-price .from { font-size: 0.8rem; color: var(--white-40); display: block; margin-bottom: 4px; }
+.plano-price .value {
+  font-family: var(--font-display); font-size: 3.5rem; line-height: 1; color: var(--white);
+}
+.plano-price .period { font-size: 0.875rem; color: var(--white-40); margin-left: 4px; }
+.plano-divider { height: 1px; background: rgba(255,255,255,0.08); margin: 28px 0; }
+
+.plano-features { list-style: none; margin-bottom: 36px; }
+.plano-features li { display: flex; align-items: flex-start; gap: 12px; padding: 9px 0; font-size: 0.875rem; color: var(--white-70); }
+.plano-features li .check { color: var(--red); font-weight: 900; flex-shrink: 0; margin-top: 1px; }
+.plano-card.vip .check { color: var(--gold); }
+
+/* ============================================
+   RESULTADOS
+============================================ */
+.resultados-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+
+.resultado-card {
+  background: var(--black-3); border-radius: var(--radius-lg); overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.06); transition: transform 0.3s;
+}
+.resultado-card:hover { transform: translateY(-6px); }
+
+.resultado-imgs {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 2px; position: relative;
+}
+.resultado-imgs img { width: 100%; height: 240px; object-fit: cover; display: block; }
+.antes-label, .depois-label {
+  position: absolute; bottom: 10px; font-size: 0.65rem; font-weight: 800;
+  letter-spacing: 0.15em; text-transform: uppercase; padding: 4px 10px;
+  background: rgba(0,0,0,0.8); border-radius: 2px;
+}
+.antes-label { left: 12px; color: var(--white-70); }
+.depois-label { left: calc(50% + 12px); color: var(--red); }
+
+.resultado-info { padding: 24px; }
+.resultado-name { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+.resultado-tempo { font-size: 0.75rem; color: var(--red); font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+.resultado-desc { font-size: 0.8rem; color: var(--white-70); line-height: 1.6; }
+
+/* ============================================
+   DEPOIMENTOS
+============================================ */
+#depoimentos { background: var(--black-2); }
+
+.depoimentos-slider { position: relative; overflow: hidden; }
+.depoimentos-track {
+  display: flex; transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.depoimento-card {
+  min-width: 100%; padding: 0 12px;
+}
+@media (min-width: 768px) { .depoimento-card { min-width: 50%; } }
+@media (min-width: 1100px) { .depoimento-card { min-width: 33.333%; } }
+
+.dep-inner {
+  background: var(--black-3); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-lg); padding: 36px; height: 100%;
+}
+.dep-stars { color: #fbbf24; font-size: 1rem; letter-spacing: 2px; margin-bottom: 20px; }
+.dep-comment { font-size: 0.9rem; color: var(--white-70); line-height: 1.8; margin-bottom: 28px; font-style: italic; }
+.dep-author { display: flex; align-items: center; gap: 14px; }
+.dep-avatar {
+  width: 48px; height: 48px; border-radius: 50%; overflow: hidden;
+  border: 2px solid var(--red); flex-shrink: 0;
+}
+.dep-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.dep-name { font-size: 0.9rem; font-weight: 700; }
+.dep-type { font-size: 0.75rem; color: var(--red); font-weight: 600; }
+
+.slider-controls {
+  display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 48px;
+}
+.slider-btn {
+  width: 48px; height: 48px; background: var(--black-3);
+  border: 1px solid rgba(255,255,255,0.1); border-radius: 50%;
+  color: var(--white); font-size: 1.2rem; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: var(--transition);
+}
+.slider-btn:hover { background: var(--red); border-color: var(--red); }
+.slider-dots { display: flex; gap: 8px; }
+.dot-btn {
+  width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.2);
+  border: none; cursor: pointer; transition: var(--transition); padding: 0;
+}
+.dot-btn.active { background: var(--red); width: 24px; border-radius: 4px; }
+
+/* ============================================
+   GALERIA
+============================================ */
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 8px;
+}
+.galeria-item {
+  overflow: hidden; border-radius: var(--radius); position: relative; cursor: pointer;
+}
+.galeria-item:first-child { grid-column: span 2; }
+.galeria-item img { width: 100%; height: 280px; object-fit: cover; display: block; transition: transform 0.5s ease; }
+.galeria-item:first-child img { height: 360px; }
+.galeria-item:hover img { transform: scale(1.06); }
+.galeria-overlay {
+  position: absolute; inset: 0; background: rgba(232,0,29,0.3);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; transition: opacity 0.3s; font-size: 2rem;
+}
+.galeria-item:hover .galeria-overlay { opacity: 1; }
+
+@media (max-width: 768px) {
+  .galeria-grid { grid-template-columns: repeat(2, 1fr); }
+  .galeria-item:first-child { grid-column: span 2; }
+}
+
+/* ============================================
+   PROFESSORES
+============================================ */
+.professores-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+
+.professor-card {
+  background: var(--black-3); border-radius: var(--radius-lg); overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.06); transition: transform 0.3s;
+  text-align: center;
+}
+.professor-card:hover { transform: translateY(-6px); }
+.professor-card:hover .prof-img img { transform: scale(1.05); }
+.prof-img { overflow: hidden; position: relative; height: 280px; }
+.prof-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.prof-img::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 60%;
+  background: linear-gradient(transparent, rgba(8,8,8,0.8));
+}
+.prof-info { padding: 28px 24px; }
+.prof-name { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; }
+.prof-especialidade { font-size: 0.75rem; color: var(--red); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+.prof-exp { font-size: 0.8rem; color: var(--white-70); }
+.prof-social { display: flex; justify-content: center; gap: 12px; margin-top: 16px; }
+.prof-social a { width: 32px; height: 32px; background: var(--white-10); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: var(--white-70); text-decoration: none; transition: var(--transition); }
+.prof-social a:hover { background: var(--red); color: var(--white); }
+
+/* ============================================
+   CONTADOR
+============================================ */
+#contador { background: var(--red); }
+.contador-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; }
+.contador-item {
+  text-align: center; padding: 60px 32px;
+  border-right: 1px solid rgba(255,255,255,0.15);
+  position: relative;
+}
+.contador-item:last-child { border-right: none; }
+.contador-number {
+  font-family: var(--font-display); font-size: clamp(3rem, 6vw, 5rem);
+  color: var(--white); line-height: 1; margin-bottom: 8px;
+}
+.contador-label { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.75); }
+
+/* ============================================
+   CTA SECTION
+============================================ */
+#cta-section {
+  position: relative; overflow: hidden; background: var(--black-2);
+}
+.cta-bg-text {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-family: var(--font-display); font-size: 20vw; white-space: nowrap;
+  color: rgba(255,255,255,0.02); pointer-events: none; z-index: 0; line-height: 1;
+}
+.cta-content { position: relative; z-index: 1; text-align: center; max-width: 700px; margin: 0 auto; }
+.cta-content .display-lg { margin: 20px 0 16px; }
+.cta-content .body-lg { margin-bottom: 48px; }
+.cta-buttons { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+
+.cta-guarantee {
+  display: flex; align-items: center; gap: 10px; margin-top: 32px;
+  justify-content: center; font-size: 0.8rem; color: var(--white-40);
+}
+.cta-guarantee::before { content: '🔒'; font-size: 1rem; }
+
+/* ============================================
+   LOCALIZAÇÃO
+============================================ */
+.localizacao-wrapper { display: grid; grid-template-columns: 1fr 1.5fr; gap: 60px; align-items: start; }
+@media (max-width: 900px) { .localizacao-wrapper { grid-template-columns: 1fr; } }
+
+.localizacao-info { }
+.localizacao-info .display-md { margin-bottom: 40px; }
+.info-item {
+  display: flex; gap: 20px; padding: 24px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.info-item:first-of-type { border-top: 1px solid rgba(255,255,255,0.08); }
+.info-icon {
+  width: 44px; height: 44px; background: rgba(232,0,29,0.1);
+  border: 1px solid rgba(232,0,29,0.2); border-radius: var(--radius);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem; flex-shrink: 0;
+}
+.info-text h4 { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--white-40); margin-bottom: 6px; }
+.info-text p { font-size: 0.9rem; color: var(--white-70); line-height: 1.6; }
+.info-text a { color: var(--red); text-decoration: none; }
+
+.map-container {
+  background: var(--black-3); border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.08); overflow: hidden; height: 460px;
+}
+.map-placeholder {
+  height: 100%; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center;
+  background: var(--black-3); color: var(--white-40);
+}
+.map-placeholder iframe { width: 100%; height: 100%; border: 0; filter: grayscale(0.8) invert(0.9); }
+
+/* ============================================
+   RODAPÉ
+============================================ */
+footer { background: var(--black); border-top: 1px solid rgba(255,255,255,0.06); padding: 80px 0 32px; }
+.footer-grid { display: grid; grid-template-columns: 1.5fr repeat(3, 1fr); gap: 48px; margin-bottom: 64px; }
+@media (max-width: 900px) { .footer-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 500px) { .footer-grid { grid-template-columns: 1fr; } }
+
+.footer-brand .logo-mark { margin-bottom: 20px; }
+.footer-brand p { font-size: 0.875rem; color: var(--white-40); line-height: 1.8; max-width: 280px; margin-bottom: 24px; }
+.footer-socials { display: flex; gap: 12px; }
+.social-btn {
+  width: 40px; height: 40px; background: var(--white-10); border-radius: var(--radius);
+  display: flex; align-items: center; justify-content: center;
+  text-decoration: none; font-size: 1rem; color: var(--white-70);
+  transition: var(--transition);
+}
+.social-btn:hover { background: var(--red); color: var(--white); transform: translateY(-2px); }
+
+.footer-col h4 { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: var(--white); margin-bottom: 24px; }
+.footer-col ul { list-style: none; }
+.footer-col ul li { margin-bottom: 12px; }
+.footer-col ul li a { font-size: 0.875rem; color: var(--white-40); text-decoration: none; transition: color 0.2s; }
+.footer-col ul li a:hover { color: var(--red); }
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.06); padding-top: 32px;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: gap;
+  gap: 16px;
+}
+.footer-bottom p { font-size: 0.8rem; color: var(--white-40); }
+
+/* ============================================
+   FLOATING WHATSAPP
+============================================ */
+.whatsapp-float {
+  position: fixed; bottom: 32px; right: 32px; z-index: 999;
+  width: 60px; height: 60px; background: #25D366; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  text-decoration: none; font-size: 1.8rem; color: var(--white);
+  box-shadow: 0 8px 30px rgba(37,211,102,0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: floatPulse 3s ease-in-out infinite;
+}
+.whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 12px 40px rgba(37,211,102,0.5); }
+@keyframes floatPulse {
+  0%, 100% { box-shadow: 0 8px 30px rgba(37,211,102,0.4); }
+  50% { box-shadow: 0 8px 50px rgba(37,211,102,0.7); }
+}
+
+.whatsapp-tooltip {
+  position: absolute; right: 72px; top: 50%; transform: translateY(-50%);
+  background: var(--black); color: var(--white); padding: 8px 14px;
+  border-radius: var(--radius); font-size: 0.8rem; font-weight: 600; white-space: nowrap;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.whatsapp-float:hover .whatsapp-tooltip { opacity: 1; }
+
+/* ============================================
+   MODAL OBJETIVO
+============================================ */
+.modal-overlay {
+  display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85);
+  z-index: 2000; align-items: center; justify-content: center; padding: 24px;
+  backdrop-filter: blur(8px);
+}
+.modal-overlay.open { display: flex; animation: fadeOverlay 0.3s ease; }
+@keyframes fadeOverlay { from { opacity: 0; } to { opacity: 1; } }
+.modal-box {
+  background: var(--black-3); border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-lg); max-width: 560px; width: 100%; padding: 48px;
+  position: relative; animation: slideUp 0.3s ease;
+}
+@keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+.modal-close {
+  position: absolute; top: 20px; right: 20px; background: none; border: none;
+  color: var(--white-40); font-size: 1.5rem; cursor: pointer; transition: color 0.2s;
+}
+.modal-close:hover { color: var(--red); }
+
+/* ============================================
+   SEÇÃO HEADER COMUM
+============================================ */
+.section-header { margin-bottom: 64px; }
+.section-header.centered { text-align: center; }
+.section-header .eyebrow { margin-bottom: 16px; display: block; }
+.section-header h2 { margin-bottom: 16px; }
+.section-header p { max-width: 560px; }
+.section-header.centered p { margin: 0 auto; }
+
+/* ============================================
+   RESPONSIVO GERAL
+============================================ */
+@media (max-width: 768px) {
+  .section { padding: 72px 0; }
+  .hero-content { padding: 140px 0 80px; }
+  .trust-indicators { gap: 20px; }
+  .hero-buttons { flex-direction: column; }
+  .hero-buttons .btn { justify-content: center; }
+  .plano-card.featured { transform: none; }
+  .plano-card.featured:hover { transform: translateY(-8px); }
+  .contador-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.15); }
+  .contador-item:last-child { border-bottom: none; }
+  .cta-buttons { flex-direction: column; }
+  .cta-buttons .btn { justify-content: center; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+}
+
+/* ============================================
+   VIDEO SECTION
+============================================ */
+.video-depoimento {
+  background: var(--black-4); border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.08); overflow: hidden; margin-top: 48px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;
+  padding: 32px;
+}
+.video-thumb {
+  position: relative; border-radius: var(--radius); overflow: hidden;
+  height: 180px; cursor: pointer; background: var(--black-3);
+  display: flex; align-items: center; justify-content: center;
+}
+.video-thumb-img { width: 100%; height: 100%; object-fit: cover; opacity: 0.7; }
+.play-btn {
+  position: absolute; width: 56px; height: 56px;
+  background: rgba(232,0,29,0.9); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; color: white; transition: transform 0.3s;
+}
+.video-thumb:hover .play-btn { transform: scale(1.15); }
+.video-thumb-label { position: absolute; bottom: 12px; left: 12px; font-size: 0.75rem; font-weight: 700; }
+
+/* RED LINE DIVIDER */
+.red-divider { width: 60px; height: 3px; background: var(--red); margin: 20px 0 0; }
+.section-header.centered .red-divider { margin: 20px auto 0; }
+
+/* ============================================
+   PRELOADER
+============================================ */
+#preloader {
+  position: fixed; inset: 0; z-index: 9999;
+  background: var(--black);
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+#preloader.hidden { opacity: 0; visibility: hidden; }
+.preloader-inner { text-align: center; }
+.preloader-logo {
+  width: 80px; height: 80px; background: var(--red);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 2.5rem; color: var(--white);
+  margin: 0 auto 32px; animation: loaderPulse 1.2s ease-in-out infinite;
+}
+@keyframes loaderPulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.1)} }
+.preloader-bar {
+  width: 200px; height: 2px; background: rgba(255,255,255,0.1);
+  border-radius: 2px; overflow: hidden; margin: 0 auto 16px;
+}
+.preloader-progress {
+  height: 100%; background: var(--red); border-radius: 2px;
+  animation: loadBar 1.8s ease-in-out forwards;
+}
+@keyframes loadBar { 0%{width:0} 70%{width:90%} 100%{width:100%} }
+.preloader-text {
+  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--white-40);
+  animation: textFade 1.8s ease-in-out infinite;
+}
+@keyframes textFade { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+/* ============================================
+   SCARCITY TOP BAR
+============================================ */
+#scarcityBar {
+  background: linear-gradient(90deg, #b5001a 0%, var(--red) 50%, #b5001a 100%);
+  padding: 12px 24px; display: flex; align-items: center; justify-content: center;
+  gap: 16px; position: relative; z-index: 998;
+  animation: scarcityPulse 3s ease-in-out infinite;
+}
+@keyframes scarcityPulse { 0%,100%{background-position:0% 50%} 50%{background-position:100% 50%} }
+.scarcity-content {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: center;
+  font-size: 0.8rem; font-weight: 600; letter-spacing: 0.02em; color: var(--white);
+}
+.scarcity-fire { font-size: 1.1rem; animation: shake 0.5s infinite alternate; }
+@keyframes shake { from{transform:rotate(-10deg)} to{transform:rotate(10deg)} }
+.scarcity-btn {
+  background: var(--white); color: var(--red);
+  padding: 6px 16px; border-radius: 100px;
+  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.05em;
+  text-decoration: none; text-transform: uppercase; transition: all 0.2s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.scarcity-btn:hover { background: var(--black); color: var(--white); }
+.scarcity-close {
+  position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; color: rgba(255,255,255,0.7);
+  font-size: 1.1rem; cursor: pointer; padding: 4px;
+  transition: color 0.2s;
+}
+.scarcity-close:hover { color: var(--white); }
+
+/* ============================================
+   TOAST NOTIFICATION - PROVA SOCIAL
+============================================ */
+#socialToast {
+  position: fixed; bottom: 110px; left: 32px; z-index: 997;
+  background: var(--black-3); border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius-lg); padding: 16px 20px;
+  display: flex; align-items: center; gap: 14px; max-width: 320px;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+  transform: translateX(-120%); transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  backdrop-filter: blur(20px);
+}
+#socialToast.show { transform: translateX(0); }
+.toast-avatar {
+  width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+  border: 2px solid var(--red); object-fit: cover;
+}
+.toast-text { font-size: 0.78rem; line-height: 1.5; color: var(--white-70); }
+.toast-text strong { color: var(--white); display: block; margin-bottom: 2px; }
+.toast-text span { color: var(--red); font-size: 0.7rem; font-weight: 600; }
+.toast-badge {
+  width: 10px; height: 10px; background: #22c55e; border-radius: 50%;
+  flex-shrink: 0; box-shadow: 0 0 8px rgba(34,197,94,0.6);
+  animation: pulse 1.5s infinite;
+}
+
+/* ============================================
+   SEÇÃO: POR QUE ESCOLHER NOSSA ACADEMIA?
+============================================ */
+#comparativo { background: var(--black); overflow: hidden; position: relative; }
+#comparativo::before {
+  content: 'VS'; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  font-family: var(--font-display); font-size: 15vw; color: rgba(255,255,255,0.02);
+  pointer-events: none; z-index: 0; line-height: 1;
+}
+.comparativo-wrapper {
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 0;
+  align-items: start; position: relative; z-index: 1;
+}
+@media (max-width: 768px) {
+  .comparativo-wrapper { grid-template-columns: 1fr; gap: 0; }
+  .comparativo-vs { display: none; }
+}
+.comparativo-col {
+  background: var(--black-3); border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.08); overflow: hidden;
+}
+.comparativo-col.nossa {
+  border-color: var(--red);
+  box-shadow: 0 0 60px rgba(232,0,29,0.15);
+}
+.comp-header {
+  padding: 32px 36px; text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.comp-header.comum { background: rgba(255,255,255,0.02); }
+.comp-header.nossa-h { background: linear-gradient(135deg, rgba(232,0,29,0.15), rgba(232,0,29,0.05)); }
+.comp-icon { font-size: 2.5rem; margin-bottom: 12px; }
+.comp-title { font-family: var(--font-display); font-size: 1.6rem; letter-spacing: 0.05em; }
+.comp-title.bad { color: var(--white-40); }
+.comp-title.good { color: var(--white); }
+.comp-subtitle { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; margin-top: 6px; }
+.comp-subtitle.bad { color: rgba(255,255,255,0.25); }
+.comp-subtitle.good { color: var(--red); }
+.comp-items { padding: 32px 36px; list-style: none; }
+.comp-item {
+  display: flex; align-items: center; gap: 16px;
+  padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.9rem;
+}
+.comp-item:last-child { border-bottom: none; }
+.comp-item.bad { color: var(--white-40); }
+.comp-item.good { color: var(--white); }
+.comp-mark {
+  width: 28px; height: 28px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.85rem; flex-shrink: 0; font-weight: 900;
+}
+.comp-mark.x { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.3); }
+.comp-mark.v { background: rgba(232,0,29,0.15); color: var(--red); }
+.comp-footer { padding: 24px 36px; border-top: 1px solid rgba(255,255,255,0.08); }
+.comparativo-vs {
+  display: flex; align-items: center; justify-content: center;
+  width: 60px; padding: 0 8px; flex-shrink: 0;
+}
+.vs-badge {
+  background: var(--red); color: var(--white);
+  font-family: var(--font-display); font-size: 1.2rem;
+  width: 48px; height: 48px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 0 30px var(--red-glow);
+}
+
+/* ============================================
+   SEÇÃO: CAPTAÇÃO DE LEADS
+============================================ */
+#captacao {
+  background: var(--black-2); position: relative; overflow: hidden;
+}
+#captacao::after {
+  content: ''; position: absolute; top: -50%; right: -20%;
+  width: 600px; height: 600px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(232,0,29,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+.captacao-wrapper {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+}
+@media (max-width: 900px) { .captacao-wrapper { grid-template-columns: 1fr; gap: 48px; } }
+
+.captacao-info {}
+.captacao-bullets { list-style: none; margin-top: 32px; }
+.captacao-bullets li {
+  display: flex; align-items: center; gap: 14px;
+  padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06);
+  font-size: 0.9rem; color: var(--white-70);
+}
+.captacao-bullets li::before { content: '✓'; color: var(--red); font-weight: 900; flex-shrink: 0; font-size: 0.85rem; }
+.captacao-bullets li:last-child { border-bottom: none; }
+
+.lead-form {
+  background: var(--black-3); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-lg); padding: 48px; position: relative;
+  box-shadow: 0 40px 80px rgba(0,0,0,0.3);
+}
+.lead-form::before {
+  content: ''; position: absolute; top: 0; left: 32px; right: 32px;
+  height: 2px; background: linear-gradient(90deg, transparent, var(--red), transparent);
+}
+.lead-form-title {
+  font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 6px;
+}
+.lead-form-sub { font-size: 0.85rem; color: var(--white-70); margin-bottom: 32px; }
+
+.form-group { margin-bottom: 20px; }
+.form-group label {
+  display: block; font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--white-40); margin-bottom: 8px;
+}
+.form-group input, .form-group select {
+  width: 100%; padding: 15px 18px; background: var(--black-4);
+  border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius);
+  color: var(--white); font-size: 0.95rem; font-family: var(--font-body);
+  transition: border-color 0.3s, box-shadow 0.3s; appearance: none;
+}
+.form-group select { cursor: pointer; }
+.form-group input:focus, .form-group select:focus {
+  outline: none; border-color: var(--red); box-shadow: 0 0 0 3px rgba(232,0,29,0.1);
+}
+.form-group input::placeholder { color: rgba(255,255,255,0.25); }
+.form-group select option { background: var(--black-3); color: var(--white); }
+
+.lead-form-btn {
+  width: 100%; padding: 18px; background: var(--red);
+  color: var(--white); border: none; border-radius: var(--radius);
+  font-family: var(--font-body); font-size: 0.9rem; font-weight: 800;
+  letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer;
+  transition: all 0.3s; position: relative; overflow: hidden;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+}
+.lead-form-btn::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, transparent, rgba(255,255,255,0.12), transparent);
+  transform: translateX(-100%); transition: transform 0.5s;
+}
+.lead-form-btn:hover { background: var(--red-dark); transform: translateY(-2px); box-shadow: 0 8px 30px var(--red-glow); }
+.lead-form-btn:hover::before { transform: translateX(100%); }
+.lead-form-privacy {
+  text-align: center; margin-top: 14px;
+  font-size: 0.72rem; color: var(--white-40); line-height: 1.6;
+}
+.lead-form-privacy::before { content: '🔒 '; }
+
+.lead-success {
+  display: none; text-align: center; padding: 32px;
+  animation: slideIn 0.4s ease;
+}
+.lead-success.show { display: block; }
+.success-icon { font-size: 3rem; margin-bottom: 16px; }
+.success-title {
+  font-family: var(--font-display); font-size: 2rem; color: var(--red);
+  margin-bottom: 12px;
+}
+.success-text { font-size: 0.9rem; color: var(--white-70); line-height: 1.8; }
+
+/* URGÊNCIA NOS PLANOS */
+.plano-vagas {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em;
+  color: #fbbf24; margin-bottom: 16px; text-transform: uppercase;
+}
+.plano-vagas::before { content: '⚡'; }
+.vagas-bar { height: 4px; background: rgba(255,255,255,0.08); border-radius: 2px; margin-bottom: 24px; }
+.vagas-bar-fill { height: 100%; border-radius: 2px; background: linear-gradient(90deg, #22c55e, #fbbf24); }
+</style>
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-logo">A</div>
+    <div class="preloader-bar"><div class="preloader-progress"></div></div>
+    <div class="preloader-text">Carregando sua transformação...</div>
+  </div>
+</div>
+
+<!-- BARRA DE ESCASSEZ -->
+<div id="scarcityBar">
+  <div class="scarcity-content">
+    <span class="scarcity-fire">🔥</span>
+    <span>Oferta especial — Apenas <strong id="vagasRestantes">7</strong> vagas com matrícula <strong>GRÁTIS</strong> este mês!</span>
+    <a href="https://wa.me/5518999999999?text=Vim%20pelo%20site%20e%20quero%20garantir%20minha%20vaga%20com%20matr%C3%ADcula%20gr%C3%A1tis!" target="_blank" class="scarcity-btn">Garantir Minha Vaga →</a>
+  </div>
+  <button class="scarcity-close" onclick="document.getElementById('scarcityBar').style.display='none'" aria-label="Fechar">✕</button>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="logo-mark">A</div>
+        <div class="logo-text">APEX<span>FIT</span></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#comparativo">Por que nós?</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#captacao">Aula Grátis</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+      <a href="https://wa.me/5518999999999?text=Olá!%20Quero%20agendar%20minha%20aula%20experimental." target="_blank" class="btn btn-primary nav-cta nav-desktop-cta">
+        ▶ Aula Gratuita
+      </a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#comparativo" class="mobile-link">Por que nós?</a>
+  <a href="#planos" class="mobile-link">Planos</a>
+  <a href="#resultados" class="mobile-link">Resultados</a>
+  <a href="#captacao" class="mobile-link">Aula Grátis</a>
+  <a href="#localizacao" class="mobile-link">Localização</a>
+  <a href="https://wa.me/5518999999999?text=Quero%20agendar%20minha%20aula%20experimental%20gratuita!" target="_blank" class="btn btn-primary">Aula Gratuita</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-red-line"></div>
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="display-xl hero-title fade-in" style="transition-delay:0.1s">
+        Transforme<br>Seu Corpo.
+        <span class="line-2">Transforme<br>Sua Vida.</span>
+      </h1>
+
+      <p class="hero-subtitle fade-in" style="transition-delay:0.2s">
+        A academia de Martinópolis com equipamentos modernos, acompanhamento profissional e mais de 500 alunos que já provaram: aqui o resultado é real.
+      </p>
+
+      <div class="hero-buttons fade-in" style="transition-delay:0.3s">
+        <a href="https://wa.me/5518999999999?text=Quero%20agendar%20minha%20aula%20experimental%20gratuita!" target="_blank" class="btn btn-primary">
+          📅 Agendar Aula Experimental
+        </a>
+        <a href="https://wa.me/5518999999999" target="_blank" class="btn btn-outline">
+          💬 Falar no WhatsApp
+        </a>
+      </div>
+
+      <div class="trust-indicators fade-in" style="transition-delay:0.4s">
+        <div class="trust-item">
+          <div class="trust-number">+500</div>
+          <div class="trust-label">Alunos<br>Treinando</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-number">4.9★</div>
+          <div class="trust-label">Avaliação<br>Média</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-number">+5</div>
+          <div class="trust-label">Anos<br>Transformando Vidas</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#diferenciais" class="hero-scroll">
+    <span>Role</span>
+    <div class="scroll-line"></div>
+  </a>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section id="diferenciais" class="section">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="eyebrow">Por que nos escolher</span>
+      <h2 class="display-lg">Nossa <span class="text-red">Estrutura</span><br>é Diferente</h2>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="diferenciais-grid">
+      <div class="diferencial-card fade-in" style="transition-delay:0.05s">
+        <div class="dif-icon">🏋️</div>
+        <div class="dif-title">Equipamentos Modernos</div>
+        <div class="dif-desc">Mais de 50 equipamentos de última geração das marcas líderes do mercado, revisados e atualizados constantemente.</div>
+      </div>
+      <div class="diferencial-card fade-in" style="transition-delay:0.1s">
+        <div class="dif-icon">👨‍🏫</div>
+        <div class="dif-title">Professores Qualificados</div>
+        <div class="dif-desc">Equipe com formação em Educação Física, especializações e anos de experiência em transformar resultados.</div>
+      </div>
+      <div class="diferencial-card fade-in" style="transition-delay:0.15s">
+        <div class="dif-icon">❄️</div>
+        <div class="dif-title">Ambiente Climatizado</div>
+        <div class="dif-desc">Treine com conforto o ano todo. Temperatura ideal para maximizar seu desempenho e bem-estar.</div>
+      </div>
+      <div class="diferencial-card fade-in" style="transition-delay:0.2s">
+        <div class="dif-icon">💳</div>
+        <div class="dif-title">Planos Acessíveis</div>
+        <div class="dif-desc">Opções para todos os perfis e bolsos. Não deixe o preço ser um obstáculo para a sua transformação.</div>
+      </div>
+      <div class="diferencial-card fade-in" style="transition-delay:0.25s">
+        <div class="dif-icon">🕐</div>
+        <div class="dif-title">Horários Flexíveis</div>
+        <div class="dif-desc">Abrimos cedo e fechamos tarde para você encaixar seu treino sem sacrificar a rotina. 7 dias por semana.</div>
+      </div>
+      <div class="diferencial-card fade-in" style="transition-delay:0.3s">
+        <div class="dif-icon">📊</div>
+        <div class="dif-title">Acompanhamento Profissional</div>
+        <div class="dif-desc">Avaliação física, planilha de treino personalizada e revisões periódicas para você evoluir com segurança.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUE ESCOLHER NOSSA ACADEMIA? -->
+<section id="comparativo" class="section">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="eyebrow">A diferença que você sente no primeiro treino</span>
+      <h2 class="display-lg">Por Que Escolher<br><span class="text-red">Nossa Academia?</span></h2>
+      <p class="body-lg" style="margin-top:16px; max-width:580px; margin-left:auto; margin-right:auto">Não é só uma academia. É o ambiente certo, a equipe certa e o método certo para gerar resultados reais.</p>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="comparativo-wrapper">
+      <!-- COLUNA COMUM -->
+      <div class="comparativo-col fade-in-left">
+        <div class="comp-header comum">
+          <div class="comp-icon">😕</div>
+          <div class="comp-title bad">Academia Comum</div>
+          <div class="comp-subtitle bad">O que você quer evitar</div>
+        </div>
+        <ul class="comp-items">
+          <li class="comp-item bad"><span class="comp-mark x">✗</span> Sem acompanhamento profissional</li>
+          <li class="comp-item bad"><span class="comp-mark x">✗</span> Equipamentos antigos e quebrados</li>
+          <li class="comp-item bad"><span class="comp-mark x">✗</span> Treinos genéricos para todo mundo</li>
+          <li class="comp-item bad"><span class="comp-mark x">✗</span> Pouca motivação e ambiente frio</li>
+          <li class="comp-item bad"><span class="comp-mark x">✗</span> Sem evolução visível e rastreada</li>
+          <li class="comp-item bad"><span class="comp-mark x">✗</span> Professores sobrecarregados</li>
+          <li class="comp-item bad"><span class="comp-mark x">✗</span> Limpeza e higiene precárias</li>
+        </ul>
+        <div class="comp-footer">
+          <div style="font-size:0.8rem; color:var(--white-40); text-align:center">Resultado: frustração, desistência e dinheiro perdido</div>
+        </div>
+      </div>
+
+      <!-- VS BADGE -->
+      <div class="comparativo-vs">
+        <div class="vs-badge">VS</div>
+      </div>
+
+      <!-- COLUNA NOSSA -->
+      <div class="comparativo-col nossa fade-in-right">
+        <div class="comp-header nossa-h">
+          <div class="comp-icon">🏆</div>
+          <div class="comp-title good">ApexFit Martinópolis</div>
+          <div class="comp-subtitle good">O que você merece</div>
+        </div>
+        <ul class="comp-items">
+          <li class="comp-item good"><span class="comp-mark v">✓</span> Acompanhamento profissional em cada treino</li>
+          <li class="comp-item good"><span class="comp-mark v">✓</span> +50 equipamentos modernos revisados</li>
+          <li class="comp-item good"><span class="comp-mark v">✓</span> Planilha personalizada para seu objetivo</li>
+          <li class="comp-item good"><span class="comp-mark v">✓</span> Comunidade motivadora e ambiente top</li>
+          <li class="comp-item good"><span class="comp-mark v">✓</span> Avaliações periódicas de evolução</li>
+          <li class="comp-item good"><span class="comp-mark v">✓</span> Equipe dedicada exclusivamente a você</li>
+          <li class="comp-item good"><span class="comp-mark v">✓</span> Estrutura impecável e climatizada</li>
+        </ul>
+        <div class="comp-footer">
+          <a href="https://wa.me/5518999999999?text=Quero%20conhecer%20a%20ApexFit%20e%20agendar%20minha%20aula%20experimental!" target="_blank" class="btn btn-primary" style="width:100%; justify-content:center; font-size:0.8rem;">
+            ▶ Experimente Grátis Hoje
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROOF STRIP -->
+    <div style="display:flex; flex-wrap:wrap; gap:32px; justify-content:center; margin-top:64px; padding-top:48px; border-top:1px solid rgba(255,255,255,0.06)" class="fade-in">
+      <div style="display:flex; align-items:center; gap:12px">
+        <span style="font-size:1.8rem">⭐</span>
+        <div><div style="font-family:var(--font-display);font-size:1.6rem;color:var(--red)">4.9/5</div><div style="font-size:0.75rem;color:var(--white-40)">Avaliação média no Google</div></div>
+      </div>
+      <div style="display:flex; align-items:center; gap:12px">
+        <span style="font-size:1.8rem">👥</span>
+        <div><div style="font-family:var(--font-display);font-size:1.6rem;color:var(--red)">+500</div><div style="font-size:0.75rem;color:var(--white-40)">Alunos ativos em Martinópolis</div></div>
+      </div>
+      <div style="display:flex; align-items:center; gap:12px">
+        <span style="font-size:1.8rem">🏅</span>
+        <div><div style="font-family:var(--font-display);font-size:1.6rem;color:var(--red)">+5 anos</div><div style="font-size:0.75rem;color:var(--white-40)">Transformando vidas em Martinópolis</div></div>
+      </div>
+      <div style="display:flex; align-items:center; gap:12px">
+        <span style="font-size:1.8rem">🎓</span>
+        <div><div style="font-family:var(--font-display);font-size:1.6rem;color:var(--red)">100%</div><div style="font-size:0.75rem;color:var(--white-40)">Profissionais com CREF</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OBJETIVOS -->
+<section id="objetivos" class="section section-alt">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="eyebrow">Qual é o seu foco</span>
+      <h2 class="display-lg">Escolha Seu <span class="text-red">Objetivo</span></h2>
+      <p class="body-lg" style="margin-top:16px">Cada meta exige uma estratégia específica. Temos o programa certo para você.</p>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="objetivos-grid">
+      <div class="objetivo-card fade-in" data-objetivo="emagrecimento" style="transition-delay:0.05s">
+        <div class="obj-number">01</div>
+        <div class="obj-icon">🔥</div>
+        <h3 class="obj-title">Emagrecimento</h3>
+        <p class="obj-desc">Programas focados em perda de peso com eficiência real e melhora completa da sua saúde.</p>
+        <button class="obj-toggle" onclick="toggleObjetivo(this)">Ver programa → </button>
+        <div class="obj-details">
+          <ul class="obj-detail-list">
+            <li>Treino aeróbico + funcional combinado</li>
+            <li>Avaliação metabólica individualizada</li>
+            <li>Controle de frequência cardíaca</li>
+            <li>Ajuste de carga progressivo</li>
+            <li>Orientação nutricional básica inclusa</li>
+            <li>Meta: 4 a 8 kg/mês com segurança</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="objetivo-card fade-in" data-objetivo="massa" style="transition-delay:0.1s">
+        <div class="obj-number">02</div>
+        <div class="obj-icon">💪</div>
+        <h3 class="obj-title">Ganho de Massa</h3>
+        <p class="obj-desc">Treinos voltados para hipertrofia real e evolução física visível com acompanhamento técnico.</p>
+        <button class="obj-toggle" onclick="toggleObjetivo(this)">Ver programa → </button>
+        <div class="obj-details">
+          <ul class="obj-detail-list">
+            <li>Periodização avançada de treino</li>
+            <li>Exercícios compostos e isolados</li>
+            <li>Planilha de sobrecarga progressiva</li>
+            <li>Acompanhamento quinzenal de evolução</li>
+            <li>Protocolos de recuperação muscular</li>
+            <li>Resultados visíveis em 6 semanas</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="objetivo-card fade-in" data-objetivo="condicionamento" style="transition-delay:0.15s">
+        <div class="obj-number">03</div>
+        <div class="obj-icon">⚡</div>
+        <h3 class="obj-title">Condicionamento</h3>
+        <p class="obj-desc">Mais energia, resistência e qualidade de vida. Sinta a diferença nos seus resultados.</p>
+        <button class="obj-toggle" onclick="toggleObjetivo(this)">Ver programa → </button>
+        <div class="obj-details">
+          <ul class="obj-detail-list">
+            <li>Treino funcional de alta intensidade</li>
+            <li>Circuitos metabólicos variados</li>
+            <li>Desenvolvimento de força e agilidade</li>
+            <li>Melhora do sistema cardiovascular</li>
+            <li>Flexibilidade e mobilidade articular</li>
+            <li>Ideal para quem quer qualidade de vida</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FORMULÁRIO DE CAPTAÇÃO -->
+<section id="captacao" class="section">
+  <div class="container">
+    <div class="captacao-wrapper">
+      <div class="captacao-info fade-in-left">
+        <span class="eyebrow">Aula 100% gratuita</span>
+        <h2 class="display-lg" style="margin:16px 0">Garanta Sua<br><span class="text-red">Vaga Agora</span></h2>
+        <p class="body-lg">Preencha o formulário e em minutos nossa equipe entra em contato para agendar sua aula experimental gratuita em Martinópolis.</p>
+
+        <ul class="captacao-bullets">
+          <li>Sem compromisso de matrícula</li>
+          <li>Aula personalizada para o seu objetivo</li>
+          <li>Avaliação física incluída na visita</li>
+          <li>Conheça toda a estrutura da academia</li>
+          <li>Resposta garantida em até 2 horas</li>
+        </ul>
+
+        <div style="margin-top:40px; padding:24px; background:rgba(232,0,29,0.06); border:1px solid rgba(232,0,29,0.2); border-radius:var(--radius-lg);">
+          <div style="display:flex; gap:16px; align-items:flex-start">
+            <span style="font-size:1.5rem; flex-shrink:0">⚡</span>
+            <div>
+              <div style="font-size:0.75rem; font-weight:800; letter-spacing:0.1em; text-transform:uppercase; color:var(--red); margin-bottom:6px">Urgência</div>
+              <div style="font-size:0.9rem; color:var(--white-70); line-height:1.6">Restam apenas <strong style="color:var(--white)" id="formVagas">7 vagas</strong> com matrícula gratuita este mês. Após esse período, o valor volta ao normal.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-in-right">
+        <div class="lead-form" id="leadFormContainer">
+          <div id="leadFormContent">
+            <div class="lead-form-title">Agendar Aula Grátis</div>
+            <p class="lead-form-sub">Preencha seus dados e receba um link direto no WhatsApp.</p>
+
+            <div class="form-group">
+              <label for="leadNome">Seu nome completo *</label>
+              <input type="text" id="leadNome" placeholder="Ex: Maria das Flores" required>
+            </div>
+            <div class="form-group">
+              <label for="leadTelefone">WhatsApp / Telefone *</label>
+              <input type="tel" id="leadTelefone" placeholder="(18) 99999-9999" required>
+            </div>
+            <div class="form-group">
+              <label for="leadObjetivo">Qual é o seu objetivo? *</label>
+              <select id="leadObjetivo" required>
+                <option value="" disabled selected>Selecione seu objetivo</option>
+                <option value="Emagrecer">🔥 Emagrecimento</option>
+                <option value="Ganhar massa muscular">💪 Ganho de Massa Muscular</option>
+                <option value="Condicionamento físico">⚡ Condicionamento Físico</option>
+                <option value="Qualidade de vida">❤️ Qualidade de Vida</option>
+                <option value="Definição muscular">🎯 Definição Muscular</option>
+                <option value="Outro objetivo">✨ Outro</option>
+              </select>
+            </div>
+
+            <button class="lead-form-btn" onclick="enviarLead()">
+              📅 Quero Minha Aula Experimental Gratuita
+            </button>
+            <p class="lead-form-privacy">Seus dados são 100% seguros. Não enviamos spam.</p>
+          </div>
+
+          <div class="lead-success" id="leadSuccess">
+            <div class="success-icon">🎉</div>
+            <div class="success-title">Parabéns!</div>
+            <p class="success-text">
+              Sua aula experimental foi solicitada com sucesso!<br>
+              <strong style="color:var(--white)">Estamos abrindo o WhatsApp para confirmar sua vaga.</strong><br><br>
+              Caso não abra automaticamente, clique no botão abaixo:
+            </p>
+            <a id="whatsappRedirect" href="#" target="_blank" class="btn btn-whatsapp" style="margin-top:24px; width:100%; justify-content:center;">
+              💬 Confirmar pelo WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULADORA IMC -->
+<section id="imc" class="section">
+  <div class="container">
+    <div class="imc-wrapper">
+      <div class="imc-form fade-in-left">
+        <span class="eyebrow">Calculadora</span>
+        <h2 class="display-md" style="margin: 16px 0 32px">Descubra seu <span class="text-red">IMC</span></h2>
+
+        <div class="form-group">
+          <label for="peso">Peso (kg)</label>
+          <input type="number" id="peso" placeholder="Ex: 75" min="30" max="300" step="0.1">
+        </div>
+        <div class="form-group">
+          <label for="altura">Altura (cm)</label>
+          <input type="number" id="altura" placeholder="Ex: 175" min="100" max="250">
+        </div>
+
+        <button class="btn btn-primary" onclick="calcularIMC()" style="width:100%; justify-content:center;">
+          Calcular IMC
+        </button>
+
+        <div class="imc-result" id="imcResult">
+          <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:12px">
+            <div class="imc-value" id="imcValue">—</div>
+            <div>
+              <div class="imc-classification" id="imcClass">—</div>
+              <div class="imc-note" id="imcNote">Seu índice de massa corporal</div>
+            </div>
+          </div>
+          <div class="imc-cta">
+            <p style="font-size:0.85rem; color:var(--white-70); margin-bottom:16px">
+              Quer otimizar seus resultados com acompanhamento profissional?
+            </p>
+            <a href="https://wa.me/5518999999999?text=Calculei%20meu%20IMC%20e%20quero%20agendar%20uma%20aula%20experimental!" target="_blank" class="btn btn-primary" style="font-size:0.75rem; padding:12px 20px">
+              📅 Agendar Aula Experimental
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imc-info fade-in-right">
+        <span class="eyebrow">Referência</span>
+        <h3 class="display-md" style="margin:16px 0 12px">Tabela de <span class="text-red">classificação</span></h3>
+        <p class="body-sm">O IMC é um indicador inicial. Para uma avaliação completa do seu condicionamento físico, conte com nossa equipe de especialistas.</p>
+
+        <div class="imc-scale">
+          <div class="scale-item">
+            <div class="scale-color" style="background:#3b82f6"></div>
+            <div class="scale-label">Abaixo do peso</div>
+            <div class="scale-range">Abaixo de 18,5</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-color" style="background:#22c55e"></div>
+            <div class="scale-label">Peso normal</div>
+            <div class="scale-range">18,5 – 24,9</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-color" style="background:#eab308"></div>
+            <div class="scale-label">Sobrepeso</div>
+            <div class="scale-range">25,0 – 29,9</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-color" style="background:#f97316"></div>
+            <div class="scale-label">Obesidade grau I</div>
+            <div class="scale-range">30,0 – 34,9</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-color" style="background:#ef4444"></div>
+            <div class="scale-label">Obesidade grau II</div>
+            <div class="scale-range">35,0 – 39,9</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-color" style="background:#991b1b"></div>
+            <div class="scale-label">Obesidade grau III</div>
+            <div class="scale-range">Acima de 40</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANOS -->
+<section id="planos" class="section section-alt">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="eyebrow">Invista em você</span>
+      <h2 class="display-lg">Planos que <span class="text-red">Cabem</span> no Seu Bolso</h2>
+      <p class="body-lg" style="margin-top:16px">Escolha o plano ideal e comece sua transformação hoje mesmo. Sem taxa de matrícula no primeiro mês.</p>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="planos-grid">
+      <!-- BÁSICO -->
+      <div class="plano-card fade-in" style="transition-delay:0.05s">
+        <div class="plano-vagas">8 vagas disponíveis</div>
+        <div class="vagas-bar"><div class="vagas-bar-fill" style="width:40%"></div></div>
+        <div class="plano-name">Plano Básico</div>
+        <div class="plano-price">
+          <span class="from">A partir de</span>
+          <span class="value">R$89</span>
+          <span class="period">/mês</span>
+        </div>
+        <div class="plano-divider"></div>
+        <ul class="plano-features">
+          <li><span class="check">✓</span> Acesso à musculação</li>
+          <li><span class="check">✓</span> Avaliação física inicial</li>
+          <li><span class="check">✓</span> Planilha de treino</li>
+          <li><span class="check">✓</span> Vestiários completos</li>
+          <li><span class="check">✓</span> Horário livre (6h–22h)</li>
+          <li><span class="check" style="color:rgba(255,255,255,0.2)">✗</span> <span style="color:var(--white-40)">Personal trainer</span></li>
+          <li><span class="check" style="color:rgba(255,255,255,0.2)">✗</span> <span style="color:var(--white-40)">Aulas coletivas</span></li>
+        </ul>
+        <a href="https://wa.me/5518999999999?text=Tenho%20interesse%20no%20Plano%20Básico!" target="_blank" class="btn btn-outline" style="width:100%; justify-content:center;">
+          💬 Contratar Agora
+        </a>
+      </div>
+
+      <!-- PREMIUM -->
+      <div class="plano-card featured fade-in" style="transition-delay:0.1s">
+        <div class="plano-badge">Mais Popular</div>
+        <div class="plano-vagas" style="margin-top:8px">⚠️ Últimas 3 vagas com matrícula grátis!</div>
+        <div class="vagas-bar"><div class="vagas-bar-fill" style="width:85%"></div></div>
+        <div class="plano-name">Plano Premium</div>
+        <div class="plano-price">
+          <span class="from">A partir de</span>
+          <span class="value">R$149</span>
+          <span class="period">/mês</span>
+        </div>
+        <div class="plano-divider"></div>
+        <ul class="plano-features">
+          <li><span class="check">✓</span> Acesso ilimitado</li>
+          <li><span class="check">✓</span> Avaliação física completa</li>
+          <li><span class="check">✓</span> Planilha personalizada</li>
+          <li><span class="check">✓</span> 4 aulas coletivas/semana</li>
+          <li><span class="check">✓</span> Orientação nutricional</li>
+          <li><span class="check">✓</span> Revisão de treino mensal</li>
+          <li><span class="check" style="color:rgba(255,255,255,0.2)">✗</span> <span style="color:var(--white-40)">Personal trainer exclusivo</span></li>
+        </ul>
+        <a href="https://wa.me/5518999999999?text=Tenho%20interesse%20no%20Plano%20Premium!" target="_blank" class="btn btn-primary" style="width:100%; justify-content:center;">
+          💬 Contratar Agora
+        </a>
+      </div>
+
+      <!-- VIP -->
+      <div class="plano-card vip fade-in" style="transition-delay:0.15s">
+        <div class="plano-badge plano-vip-badge">VIP Exclusivo</div>
+        <div class="plano-vagas" style="color:var(--gold)">Apenas 2 vagas este mês</div>
+        <div class="vagas-bar"><div class="vagas-bar-fill" style="width:92%; background:linear-gradient(90deg,#c9a84c,#fde68a)"></div></div>
+        <div class="plano-name">Plano VIP</div>
+        <div class="plano-price">
+          <span class="from">A partir de</span>
+          <span class="value" style="color:var(--gold)">R$299</span>
+          <span class="period">/mês</span>
+        </div>
+        <div class="plano-divider"></div>
+        <ul class="plano-features">
+          <li><span class="check" style="color:var(--gold)">✓</span> Tudo do Premium</li>
+          <li><span class="check" style="color:var(--gold)">✓</span> Personal trainer exclusivo</li>
+          <li><span class="check" style="color:var(--gold)">✓</span> 8 sessões PT/mês</li>
+          <li><span class="check" style="color:var(--gold)">✓</span> Avaliação quinzenal</li>
+          <li><span class="check" style="color:var(--gold)">✓</span> Plano nutricional detalhado</li>
+          <li><span class="check" style="color:var(--gold)">✓</span> Acesso 24h/7 dias</li>
+          <li><span class="check" style="color:var(--gold)">✓</span> Suporte prioritário</li>
+        </ul>
+        <a href="https://wa.me/5518999999999?text=Tenho%20interesse%20no%20Plano%20VIP!" target="_blank" class="btn btn-primary" style="width:100%; justify-content:center; background:var(--gold); color:var(--black)">
+          💬 Contratar Agora
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section id="resultados" class="section">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="eyebrow">Provas reais</span>
+      <h2 class="display-lg">Resultados <span class="text-red">Reais</span><br>de Alunos Reais</h2>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="resultados-grid">
+      <div class="resultado-card fade-in" style="transition-delay:0.05s">
+        <div class="resultado-imgs">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&q=80" alt="Antes">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=300&q=80" alt="Depois">
+          <span class="antes-label">ANTES</span>
+          <span class="depois-label">DEPOIS</span>
+        </div>
+        <div class="resultado-info">
+          <div class="resultado-name">Carlos Mendes</div>
+          <div class="resultado-tempo">⏱ 4 meses de treino</div>
+          <div class="resultado-desc">Perdeu 18 kg, ganhou massa muscular e conquistou disposição para o dia a dia.</div>
+        </div>
+      </div>
+
+      <div class="resultado-card fade-in" style="transition-delay:0.1s">
+        <div class="resultado-imgs">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=300&q=80" alt="Antes">
+          <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=300&q=80" alt="Depois">
+          <span class="antes-label">ANTES</span>
+          <span class="depois-label">DEPOIS</span>
+        </div>
+        <div class="resultado-info">
+          <div class="resultado-name">Fernanda Lima</div>
+          <div class="resultado-tempo">⏱ 3 meses de treino</div>
+          <div class="resultado-desc">Definiu o corpo, aumentou a autoestima e virou referência para as amigas na academia.</div>
+        </div>
+      </div>
+
+      <div class="resultado-card fade-in" style="transition-delay:0.15s">
+        <div class="resultado-imgs">
+          <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=300&q=80" alt="Antes">
+          <img src="https://images.unsplash.com/photo-1534367990512-edbdca781b00?w=300&q=80" alt="Depois">
+          <span class="antes-label">ANTES</span>
+          <span class="depois-label">DEPOIS</span>
+        </div>
+        <div class="resultado-info">
+          <div class="resultado-name">Rafael Costa</div>
+          <div class="resultado-tempo">⏱ 6 meses de treino</div>
+          <div class="resultado-desc">Ganhou 8 kg de massa muscular pura e conquistou o condicionamento que sempre sonhou.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos" class="section section-alt">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="eyebrow">O que dizem sobre nós</span>
+      <h2 class="display-lg">+1000 Histórias de <span class="text-red">Sucesso</span></h2>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="depoimentos-slider">
+      <div class="depoimentos-track" id="depTrack">
+
+        <div class="depoimento-card">
+          <div class="dep-inner">
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-comment">"Em 3 meses consegui resultados que nunca tive em outras academias. Os professores são excepcionais e o ambiente te motiva a dar o máximo todo dia."</p>
+            <div class="dep-author">
+              <div class="dep-avatar"><img src="https://i.pravatar.cc/96?img=11" alt="Ana Paula"></div>
+              <div><div class="dep-name">Ana Paula Silva</div><div class="dep-type">Plano Premium · 3 meses</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card">
+          <div class="dep-inner">
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-comment">"Melhor investimento que fiz na minha saúde. Perdi 15 kg com acompanhamento profissional de verdade. A estrutura é impressionante."</p>
+            <div class="dep-author">
+              <div class="dep-avatar"><img src="https://i.pravatar.cc/96?img=33" alt="Marcos Oliveira"></div>
+              <div><div class="dep-name">Marcos Oliveira</div><div class="dep-type">Plano VIP · 5 meses</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card">
+          <div class="dep-inner">
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-comment">"Nunca me senti tão bem na vida. A equipe é atenciosa, os equipamentos são top e o resultado aparece rápido quando você se dedica."</p>
+            <div class="dep-author">
+              <div class="dep-avatar"><img src="https://i.pravatar.cc/96?img=47" alt="Juliana Ramos"></div>
+              <div><div class="dep-name">Juliana Ramos</div><div class="dep-type">Plano Básico · 4 meses</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card">
+          <div class="dep-inner">
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-comment">"Ambiente limpo, organizado e com profissionais que realmente entendem do que fazem. Não troco essa academia por nada. Já indiquei para toda a família."</p>
+            <div class="dep-author">
+              <div class="dep-avatar"><img src="https://i.pravatar.cc/96?img=52" alt="Pedro Santos"></div>
+              <div><div class="dep-name">Pedro Santos</div><div class="dep-type">Plano VIP · 8 meses</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card">
+          <div class="dep-inner">
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-comment">"Voltei a me sentir jovem aos 48 anos! O personal me montou um treino perfeito para minha idade e saúde. Recomendo de olhos fechados."</p>
+            <div class="dep-author">
+              <div class="dep-avatar"><img src="https://i.pravatar.cc/96?img=64" alt="Sandra Ferreira"></div>
+              <div><div class="dep-name">Sandra Ferreira</div><div class="dep-type">Plano Premium · 6 meses</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card">
+          <div class="dep-inner">
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-comment">"Fui com medo de não me adaptar, mas logo na primeira semana me senti em casa. Os professores são pacientes e super motivadores."</p>
+            <div class="dep-author">
+              <div class="dep-avatar"><img src="https://i.pravatar.cc/96?img=7" alt="Lucas Almeida"></div>
+              <div><div class="dep-name">Lucas Almeida</div><div class="dep-type">Plano Básico · 2 meses</div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="slider-controls">
+      <button class="slider-btn" id="prevBtn">←</button>
+      <div class="slider-dots" id="sliderDots"></div>
+      <button class="slider-btn" id="nextBtn">→</button>
+    </div>
+
+    <!-- Video Testimonials -->
+    <div class="video-depoimento fade-in">
+      <div style="flex:1; min-width:200px">
+        <span class="eyebrow">Depoimentos em vídeo</span>
+        <h3 style="font-size:1.2rem; font-weight:700; margin-top:12px; margin-bottom:8px">Veja quem já transformou a vida</h3>
+        <p class="body-sm">Histórias reais de alunos que deram o primeiro passo e nunca mais pararam.</p>
+      </div>
+      <div class="video-thumb">
+        <img class="video-thumb-img" src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&q=80" alt="Depoimento em vídeo">
+        <div class="play-btn">▶</div>
+        <div class="video-thumb-label">Carlos M. · 4 meses</div>
+      </div>
+      <div class="video-thumb">
+        <img class="video-thumb-img" src="https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=400&q=80" alt="Depoimento em vídeo">
+        <div class="play-btn">▶</div>
+        <div class="video-thumb-label">Fernanda L. · 3 meses</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria" class="section">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="eyebrow">Nossa estrutura</span>
+      <h2 class="display-lg">Conheça a <span class="text-red">Academia</span></h2>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="galeria-grid">
+      <div class="galeria-item fade-in">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80" alt="Área de musculação">
+        <div class="galeria-overlay">🔍</div>
+      </div>
+      <div class="galeria-item fade-in">
+        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&q=80" alt="Equipamentos">
+        <div class="galeria-overlay">🔍</div>
+      </div>
+      <div class="galeria-item fade-in">
+        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80" alt="Cardio">
+        <div class="galeria-overlay">🔍</div>
+      </div>
+      <div class="galeria-item fade-in">
+        <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=400&q=80" alt="Treino">
+        <div class="galeria-overlay">🔍</div>
+      </div>
+      <div class="galeria-item fade-in">
+        <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=400&q=80" alt="Recepção">
+        <div class="galeria-overlay">🔍</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFESSORES -->
+<section id="professores" class="section section-alt">
+  <div class="container">
+    <div class="section-header centered fade-in">
+      <span class="eyebrow">Nossa equipe</span>
+      <h2 class="display-lg">Profissionais que <span class="text-red">Fazem a Diferença</span></h2>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="professores-grid">
+      <div class="professor-card fade-in" style="transition-delay:0.05s">
+        <div class="prof-img">
+          <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400&q=80" alt="Prof. Rafael Nunes">
+        </div>
+        <div class="prof-info">
+          <div class="prof-name">Rafael Nunes</div>
+          <div class="prof-especialidade">Musculação & Hipertrofia</div>
+          <div class="prof-exp">12 anos de experiência · CREF 012345-G/SP</div>
+          <div class="prof-social">
+            <a href="#">📸</a>
+            <a href="#">💼</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="professor-card fade-in" style="transition-delay:0.1s">
+        <div class="prof-img">
+          <img src="https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?w=400&q=80" alt="Prof. Camila Torres">
+        </div>
+        <div class="prof-info">
+          <div class="prof-name">Camila Torres</div>
+          <div class="prof-especialidade">Emagrecimento & Funcional</div>
+          <div class="prof-exp">8 anos de experiência · CREF 067890-G/SP</div>
+          <div class="prof-social">
+            <a href="#">📸</a>
+            <a href="#">💼</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="professor-card fade-in" style="transition-delay:0.15s">
+        <div class="prof-img">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" alt="Prof. Diego Souza">
+        </div>
+        <div class="prof-info">
+          <div class="prof-name">Diego Souza</div>
+          <div class="prof-especialidade">Condicionamento & CrossFit</div>
+          <div class="prof-exp">10 anos de experiência · CREF 034567-G/SP</div>
+          <div class="prof-social">
+            <a href="#">📸</a>
+            <a href="#">💼</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="professor-card fade-in" style="transition-delay:0.2s">
+        <div class="prof-img">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" alt="Profa. Larissa Melo">
+        </div>
+        <div class="prof-info">
+          <div class="prof-name">Larissa Melo</div>
+          <div class="prof-especialidade">Nutrição & Performance</div>
+          <div class="prof-exp">6 anos de experiência · CRN 12345/SP</div>
+          <div class="prof-social">
+            <a href="#">📸</a>
+            <a href="#">💼</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTADOR -->
+<section id="contador">
+  <div class="container">
+    <div class="contador-grid">
+      <div class="contador-item">
+        <div class="contador-number" data-target="500" data-prefix="+">0</div>
+        <div class="contador-label">Alunos Ativos</div>
+      </div>
+      <div class="contador-item">
+        <div class="contador-number" data-target="1000" data-prefix="+">0</div>
+        <div class="contador-label">Avaliações Positivas</div>
+      </div>
+      <div class="contador-item">
+        <div class="contador-number" data-target="50" data-prefix="+">0</div>
+        <div class="contador-label">Equipamentos</div>
+      </div>
+      <div class="contador-item">
+        <div class="contador-number" data-target="10000" data-prefix="+">0</div>
+        <div class="contador-label">Horas de Treino</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta-section" class="section">
+  <div class="cta-bg-text">AGORA</div>
+  <div class="container">
+    <div class="cta-content">
+      <span class="eyebrow fade-in">O momento é agora</span>
+      <h2 class="display-lg fade-in" style="transition-delay:0.1s">
+        Comece Sua<br><span class="text-red">Transformação</span> Hoje
+      </h2>
+      <p class="body-lg fade-in" style="transition-delay:0.2s; margin-top:20px">
+        Agende gratuitamente sua primeira aula e conheça nossa estrutura. Sem compromisso, sem desculpa — só resultado.
+      </p>
+      <div class="cta-buttons fade-in" style="transition-delay:0.3s">
+        <a href="https://wa.me/5518999999999?text=Quero%20agendar%20minha%20aula%20experimental%20GRATUITA!" target="_blank" class="btn btn-whatsapp" style="font-size:1rem; padding:20px 40px">
+          💬 Falar no WhatsApp Agora
+        </a>
+        <a href="tel:+5518999999999" class="btn btn-outline" style="padding:20px 32px">
+          📞 Ligar Agora
+        </a>
+      </div>
+      <div class="cta-guarantee fade-in" style="transition-delay:0.4s">
+        Primeira aula experimental 100% gratuita e sem compromisso
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section id="localizacao" class="section section-alt">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="eyebrow">Venha nos visitar</span>
+      <h2 class="display-lg">Onde Estamos <span class="text-red">Localizados</span></h2>
+      <div class="red-divider"></div>
+    </div>
+
+    <div class="localizacao-wrapper">
+      <div class="localizacao-info fade-in-left">
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-text">
+            <h4>Endereço</h4>
+            <p>Av. Brasil, 500 — Centro<br>Martinópolis – SP, CEP 19190-000</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🕐</div>
+          <div class="info-text">
+            <h4>Horário de Funcionamento</h4>
+            <p>Segunda a Sexta: 06h – 23h<br>Sábado: 08h – 20h<br>Domingo e Feriados: 09h – 14h</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div class="info-text">
+            <h4>Telefone</h4>
+            <p><a href="tel:+5518999999999">(18) 99999-9999</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">💬</div>
+          <div class="info-text">
+            <h4>WhatsApp</h4>
+            <p><a href="https://wa.me/5518999999999" target="_blank">(18) 99999-9999 — Falar agora</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-container fade-in-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1!2d-46.6547!3d-23.5614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQxLjAiUyA0NsKwMzknMTcuMCJX!5e0!3m2!1spt-BR!2sbr!4v1700000000"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:20px">
+          <div class="logo-mark">A</div>
+          <div class="logo-text">APEX<span>FIT</span></div>
+        </div>
+        <p>A academia que transforma vidas com equipamentos modernos, equipe qualificada e resultados comprovados.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn" title="Instagram">📸</a>
+          <a href="#" class="social-btn" title="Facebook">👤</a>
+          <a href="#" class="social-btn" title="YouTube">▶</a>
+          <a href="https://wa.me/5518999999999" target="_blank" class="social-btn" title="WhatsApp">💬</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#objetivos">Objetivos</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Academia</h4>
+        <ul>
+          <li><a href="#professores">Nossa Equipe</a></li>
+          <li><a href="#galeria">Estrutura</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#imc">Calcular IMC</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="tel:+5518999999999">(18) 99999-9999</a></li>
+          <li><a href="https://wa.me/5518999999999" target="_blank">WhatsApp</a></li>
+          <li><a href="#">contato@apexfit.com.br</a></li>
+          <li><a href="#localizacao">Av. Brasil, 500</a></li>
+          <li><a href="#">Martinópolis – SP</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 ApexFit Academia — Martinópolis/SP. Todos os direitos reservados.</p>
+      <p style="color:var(--white-40); font-size:0.75rem">Academia em Martinópolis · Musculação · Personal Trainer · Resultados Reais</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/5518999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20ApexFit%20em%20Martin%C3%B3polis." target="_blank" class="whatsapp-float">
+  💬
+  <span class="whatsapp-tooltip">Fale com um consultor</span>
+</a>
+
+<script>
+// ============================================
+// PRELOADER
+// ============================================
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const preloader = document.getElementById('preloader');
+    preloader.classList.add('hidden');
+    setTimeout(() => { preloader.style.display = 'none'; }, 600);
+    // Trigger hero animations after preloader
+    document.querySelectorAll('#hero .fade-in').forEach((el, i) => {
+      setTimeout(() => el.classList.add('visible'), i * 150 + 300);
+    });
+  }, 2000);
+});
+
+// ============================================
+// NAVBAR SCROLL
+// ============================================
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 60);
+}, { passive: true });
+
+// ============================================
+// HAMBURGER MENU
+// ============================================
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
+});
+
+document.querySelectorAll('.mobile-link').forEach(link => {
+  link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+});
+
+// ============================================
+// SCROLL ANIMATIONS
+// ============================================
+const animatedEls = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right, .scale-in');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+animatedEls.forEach(el => observer.observe(el));
+
+// Hero animations triggered after preloader (see preloader section above)
+
+// ============================================
+// OBJETIVO TOGGLE
+// ============================================
+function toggleObjetivo(btn) {
+  const card = btn.closest('.objetivo-card');
+  const details = card.querySelector('.obj-details');
+  const isOpen = details.classList.contains('open');
+
+  // Close all
+  document.querySelectorAll('.obj-details').forEach(d => d.classList.remove('open'));
+  document.querySelectorAll('.objetivo-card').forEach(c => c.classList.remove('active'));
+
+  if (!isOpen) {
+    details.classList.add('open');
+    card.classList.add('active');
+    btn.textContent = 'Fechar ✕ ';
+  } else {
+    btn.textContent = 'Ver programa → ';
+  }
+
+  // Reset other buttons
+  document.querySelectorAll('.obj-toggle').forEach(b => {
+    if (b !== btn) b.textContent = 'Ver programa → ';
+  });
+}
+
+// ============================================
+// CALCULADORA IMC
+// ============================================
+function calcularIMC() {
+  const peso = parseFloat(document.getElementById('peso').value);
+  const altura = parseFloat(document.getElementById('altura').value) / 100;
+
+  if (!peso || !altura || peso < 30 || altura < 1) {
+    alert('Por favor, preencha peso e altura corretamente.');
+    return;
+  }
+
+  const imc = (peso / (altura * altura)).toFixed(1);
+  const result = document.getElementById('imcResult');
+  const valueEl = document.getElementById('imcValue');
+  const classEl = document.getElementById('imcClass');
+  const noteEl = document.getElementById('imcNote');
+
+  valueEl.textContent = imc;
+
+  let cls, note, color;
+  if (imc < 18.5) {
+    cls = 'Abaixo do peso'; note = 'Você pode precisar ganhar massa muscular.'; color = '#3b82f6';
+  } else if (imc < 25) {
+    cls = '✓ Peso Normal'; note = 'Excelente! Continue mantendo hábitos saudáveis.'; color = '#22c55e';
+  } else if (imc < 30) {
+    cls = 'Sobrepeso'; note = 'Um programa de emagrecimento pode te ajudar.'; color = '#eab308';
+  } else if (imc < 35) {
+    cls = 'Obesidade Grau I'; note = 'Recomendamos acompanhamento profissional imediato.'; color = '#f97316';
+  } else if (imc < 40) {
+    cls = 'Obesidade Grau II'; note = 'Procure orientação médica e profissional.'; color = '#ef4444';
+  } else {
+    cls = 'Obesidade Grau III'; note = 'É fundamental buscar orientação médica.'; color = '#991b1b';
+  }
+
+  classEl.textContent = cls;
+  classEl.style.color = color;
+  noteEl.textContent = note;
+  valueEl.style.color = color;
+
+  result.classList.add('show');
+}
+
+// ============================================
+// SLIDER DEPOIMENTOS
+// ============================================
+const track = document.getElementById('depTrack');
+const cards = track.querySelectorAll('.depoimento-card');
+const dotsContainer = document.getElementById('sliderDots');
+let current = 0;
+let perView = window.innerWidth >= 1100 ? 3 : window.innerWidth >= 768 ? 2 : 1;
+let total = Math.ceil(cards.length / perView);
+let autoSlide;
+
+function buildDots() {
+  dotsContainer.innerHTML = '';
+  total = Math.ceil(cards.length / perView);
+  for (let i = 0; i < total; i++) {
+    const d = document.createElement('button');
+    d.className = 'dot-btn' + (i === 0 ? ' active' : '');
+    d.addEventListener('click', () => goTo(i));
+    dotsContainer.appendChild(d);
+  }
+}
+
+function goTo(i) {
+  current = Math.max(0, Math.min(i, total - 1));
+  track.style.transform = `translateX(-${current * 100 * perView / cards.length * (cards.length / perView)}%)`;
+
+  // Simpler: move by percentage
+  const pct = current * (100 / perView);
+  track.style.transform = `translateX(-${current * (100 / perView)}%)`;
+
+  document.querySelectorAll('.dot-btn').forEach((d, idx) => d.classList.toggle('active', idx === current));
+}
+
+function moveSlide(pct) {
+  track.style.transform = `translateX(-${current * pct}%)`;
+}
+
+document.getElementById('prevBtn').addEventListener('click', () => { goTo(current - 1); resetAuto(); });
+document.getElementById('nextBtn').addEventListener('click', () => {
+  goTo(current < total - 1 ? current + 1 : 0); resetAuto();
+});
+
+function startAuto() { autoSlide = setInterval(() => goTo(current < total - 1 ? current + 1 : 0), 5000); }
+function resetAuto() { clearInterval(autoSlide); startAuto(); }
+
+window.addEventListener('resize', () => {
+  perView = window.innerWidth >= 1100 ? 3 : window.innerWidth >= 768 ? 2 : 1;
+  current = 0;
+  buildDots();
+  goTo(0);
+});
+
+buildDots();
+goTo(0);
+startAuto();
+
+// ============================================
+// CONTADOR ANIMADO
+// ============================================
+const counters = document.querySelectorAll('.contador-number');
+let counted = false;
+
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting && !counted) {
+      counted = true;
+      counters.forEach(el => {
+        const target = parseInt(el.getAttribute('data-target'));
+        const prefix = el.getAttribute('data-prefix') || '';
+        const duration = 2000;
+        const step = target / (duration / 16);
+        let current = 0;
+
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+          }
+          el.textContent = prefix + Math.floor(current).toLocaleString('pt-BR');
+        }, 16);
+      });
+    }
+  });
+}, { threshold: 0.3 });
+
+document.getElementById('contador') && counterObserver.observe(document.getElementById('contador'));
+
+// ============================================
+// PARALLAX HERO
+// ============================================
+const heroBg = document.querySelector('.hero-bg');
+window.addEventListener('scroll', () => {
+  if (heroBg && window.scrollY < window.innerHeight * 1.5) {
+    heroBg.style.transform = `translateY(${window.scrollY * 0.38}px)`;
+  }
+}, { passive: true });
+
+// ============================================
+// LEAD FORM → WHATSAPP
+// ============================================
+function enviarLead() {
+  const nome = document.getElementById('leadNome').value.trim();
+  const telefone = document.getElementById('leadTelefone').value.trim();
+  const objetivo = document.getElementById('leadObjetivo').value;
+
+  if (!nome) { alert('Por favor, informe seu nome.'); document.getElementById('leadNome').focus(); return; }
+  if (!telefone || telefone.length < 8) { alert('Por favor, informe um telefone válido.'); document.getElementById('leadTelefone').focus(); return; }
+  if (!objetivo) { alert('Por favor, selecione seu objetivo.'); document.getElementById('leadObjetivo').focus(); return; }
+
+  const msg = encodeURIComponent(
+    `Olá! Meu nome é ${nome} e vim pelo site da ApexFit em Martinópolis.\n\n` +
+    `📱 Telefone: ${telefone}\n` +
+    `🎯 Objetivo: ${objetivo}\n\n` +
+    `Quero agendar minha aula experimental GRATUITA! 💪`
+  );
+
+  const waUrl = `https://wa.me/5518999999999?text=${msg}`;
+  document.getElementById('whatsappRedirect').href = waUrl;
+
+  // Show success
+  document.getElementById('leadFormContent').style.display = 'none';
+  document.getElementById('leadSuccess').classList.add('show');
+
+  // Auto-open WhatsApp after 1.5s
+  setTimeout(() => { window.open(waUrl, '_blank'); }, 1500);
+}
+
+
+// ============================================
+// SCARCITY COUNTDOWN (simulated urgency)
+// ============================================
+function updateVagas() {
+  // Persist "vagas" across page views using sessionStorage
+  let vagas = parseInt(sessionStorage.getItem('apexfit_vagas') || '7');
+  const now = Date.now();
+  const last = parseInt(sessionStorage.getItem('apexfit_vagas_time') || '0');
+  // Decrease by 1 if more than 2 min since last load (simulate activity)
+  if (last && (now - last) > 120000 && vagas > 3) { vagas--; }
+  sessionStorage.setItem('apexfit_vagas', vagas);
+  sessionStorage.setItem('apexfit_vagas_time', now);
+  document.querySelectorAll('#vagasRestantes, #formVagas').forEach(el => {
+    if (el) el.textContent = el.id === 'formVagas' ? `${vagas} vagas` : vagas;
+  });
+}
+updateVagas();
+
+// ============================================
+// PHONE MASK
+// ============================================
+const telInput = document.getElementById('leadTelefone');
+if (telInput) {
+  telInput.addEventListener('input', function() {
+    let v = this.value.replace(/\D/g, '');
+    if (v.length <= 11) {
+      v = v.replace(/^(\d{2})(\d)/g, '($1) $2');
+      v = v.replace(/(\d{5})(\d)/, '$1-$2');
+    }
+    this.value = v;
+  });
+}
+
+// ============================================
+// SMOOTH SCROLL OFFSET (for sticky bar)
+// ============================================
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const offset = navbar.offsetHeight + 16;
+      window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
+    }
+  });
+});
+</script>
+</body>
+</html>
